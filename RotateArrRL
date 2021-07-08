@@ -1,0 +1,37 @@
+class RotateRight {    
+ public static void main(String[] args) {     
+ int [] arr = new int [] {1, 2, 3, 4, 5};             
+ System.out.println(" array elements: "); 
+ System.out.println("enter the x no of positions to rotate");
+ System.out.println("enter the y no of positions to rotate");
+ for (int i = 0; i <n; i++) 
+ {     
+  System.out.print(arr[i] + " ");     
+  }    
+  for(int i = 0; i < n; i++)
+  {
+  for(int j=0;j<n;j++)
+  {
+  if((i-r)<0)
+  {
+  br[n+i-r]=ar[i];
+  }
+ else
+ br[i-r]=ar[i];
+ }
+System.out.println("Array after right rotation: ");    
+for(int i = 0; i< arr.length; i++){    
+System.out.print(brr[i] + " "); 
+System.out.println("Array after left rotation");
+System.out.println(arr[i]+" ");
+        }    
+    }    
+    }
+    }
+    ________________________________________________________________________________________________________
+    output:
+array elements:1,2,3,4,5
+enter the x no of position to rotate:2
+enter the y no of position to rotate:3
+Array after right rotation is:4,5,1,2,3
+Array after left rotation is:2,3,4,5,1 
