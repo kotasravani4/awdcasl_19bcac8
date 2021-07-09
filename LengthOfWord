@@ -1,0 +1,28 @@
+import java.util.*;
+class LengthOfWord 
+{
+public static void main (String args[]) 
+{ 
+string str;
+Scanner sc=new Scanner(System.in);
+System.out.println("enter string data");
+str=sc.nextLine();
+String ch[]=s.split(" "); 
+int n=ch.length; 
+if(n==0)
+return 0; 
+else
+{ 
+for(int i=0;i<n;i++)
+String str=ch[n]; 
+int m=str.length(); 
+System.out.println("\n"+m);
+} 
+}
+}
+______________________________________________________________________________________________________________________________________________
+output:
+enter string data: aditya degree college
+6 
+6
+7
