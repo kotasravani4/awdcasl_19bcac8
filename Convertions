@@ -1,0 +1,33 @@
+import java.util.*;
+class Myconvertions
+{
+public static void main(String args[])
+{
+int n;
+Scanner sc=new Scanner(System.in);
+System.out.print("Enter a decimal num:");
+n=sc.nextInt();
+System.out.println("enter any case:");
+switch(n)
+{
+case 1:
+        String h=Integer.toHexString(n);
+        System.out.println("Hexavalue:"+h);
+        break;
+case 2:
+       String h=Integer.tooctalString(n);
+       System.out.println("octalvalue:"+h);
+       break;
+case 3:
+      String h=Integer.toBinaryString(n);
+      System.out.println("binaryvalue:"+h);
+      break;
+default:
+        System.out.println("enter the given range");
+}
+}
+_____________________________________________________________________________________
+output:
+Enter a decimal num:12
+enter any case:12
+octalvalue:14
