@@ -1,0 +1,21 @@
+import java.lang.*;
+public class Main 
+{  
+public static void main(String[] args)
+{ 
+int n,index;
+Scanner sc=new Scanner(System.in);
+n=sc.nextInt();
+System.out.pritln("enter the string: ");
+System.out.println("enter the string you want to insert");    
+System.out.println("enter the index value where u want to insert the string"+index);  
+resString.insert(index + 1, newSub);
+System.out.println("Resultant String = "+resString.toString());    
+}
+}
+__________________________________________________________________________________________
+output:
+enter the string:Aditya Degree College
+Enter the string you want to insert:Womens
+enter the index value where u want to insert the string:3
+Aditya Degree Womens College
