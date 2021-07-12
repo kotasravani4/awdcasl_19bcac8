@@ -1,0 +1,25 @@
+import java.utill.*;
+pubilc static void main(String args[])
+{
+class CapatilizeTheFirstword
+{
+String s;
+StringBuilder str=new StringBuilder(s.length());
+System.out.println("enter the string u to capatilize the first word");
+String[] words=s.split();
+for(i=0;i<words.length;i++)
+{
+if(i>0)
+{
+result.append(" ");
+result.append(character.toUpperCase(word[i].charAt(0))).append(word[i].substring(1));
+System.out.println(str);
+}
+}
+}
+}
+____________________________________________________________________________________________________________________________________
+output:
+enter the string u to capatilize the first word 
+aditya degree womens campus
+Aditya Degree Womens Campus
