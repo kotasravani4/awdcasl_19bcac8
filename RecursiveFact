@@ -1,0 +1,20 @@
+public class Factorial 
+{
+public static void main(String[] args) 
+{
+ int i,fact=1;
+ int num=5;
+ fact=factriol(num);
+ System.out.println("Factorial of " + num + " = " + factorial);
+  }
+ public static int factriol(int num)
+  {
+   if (num >= 1)
+         return(n*factriol(n-1));
+      else
+          return 1;
+    }
+}
+______________________________________________________________________________________________________________________________________
+output:
+Factriol of 5 is :120
