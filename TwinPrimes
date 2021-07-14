@@ -1,0 +1,48 @@
+import java.util.*;
+class TwinPrimes
+{
+public static void main(String args[])
+{
+int n1,n2;
+Scanner sc=new Scanner(System.in);
+System.out.println("enter the n1 number");
+n1=sc.nextInt();
+System.out.println("enter the n2 number");
+n2=sc.nextInt();
+if(checkTwinprime(n1,n2))
+System.out.println("("+n1+","+n2+")is a twin prime");
+else
+System.out.println("("n1+","+n2+")is not a twin prime");
+primrnumber(n);
+}
+Static boolen primenumber(int x)
+{
+int count==0;
+for(int i=1;i<x;i++)
+{
+if(x%i==0)
+count++;
+}
+if(count==2)
+{
+return true;
+else
+return false;
+}
+}
+static boolen checkTwinPrime(int n1,n2)
+{
+if(checkTwinprime(n1)&&checkTwinPrime(n2)&&math.abs(n1-n2==2)
+{
+retuen true;
+else
+return false;
+}
+}
+}
+________________________________________________________________________________________________________________________
+output:
+enter the n1 number:3
+enter the n2 number :5
+(3,5)is a twin prime
+
