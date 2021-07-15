@@ -1,0 +1,41 @@
+class ArrayList
+{
+void add_to_ArrayList(ArrayList<Integer> A, int x)
+{
+A.add(10);
+A.add(20);
+A.add(40);
+A.add(50);
+}
+void sort_ArrayList_Asc(ArrayList<Integer> A)
+{
+System.out.println(Collections.sort(A));
+}
+void reverse_ArrayList(ArrayList<Integer> A)
+{
+System.out.println(Collection.reverse(A));
+}
+int size_Of_ArrayList(ArrayList<Integer> A)
+{
+int x;
+x= A.size();
+return x;
+}
+void sort_ArrayList_Desc(ArrayList<Integer> A)
+{
+System.out.println(Collections.reverse(A));
+Collections.sort(A,Collections.reverseOrder()); 
+}
+void print_ArrayList(ArrayList<Integer> A)
+{
+for(Integer i:A)
+{
+System.out.print(i+" ");
+}
+}
+}
+______________________________________________________________________________________
+output:
+10 20 40 50
+10 20 40 50
+50 40 20 10
