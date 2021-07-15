@@ -1,0 +1,23 @@
+import java.util.*;
+class JoinArrayList
+{
+public static void main(String args[])
+{
+ArrayList<Integer>a=new ArrayList<Integer>();
+a.add(10);
+a.add(20);
+a.add(30);
+System.out.println(a);
+a1.add(40);
+a1.add(50);
+a1.add(60);
+System.out.println(a1);
+a3=a1.addAll(a2);
+System.out.println(a3);
+}
+}
+_________________________________________________________________________________________
+output:
+10 20 30
+40 50 60
+10 20 30 40 50 60
