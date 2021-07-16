@@ -1,0 +1,36 @@
+import java.util.*;
+class ReadNEle
+{
+public static void main(String args[])
+{
+Scanner sc =new Scanner(System.in)
+int n;
+Arraylist<Integer>x=new ArrayList<Integer>();
+n=sc.nextInt();
+System.out.println("enter n value");
+for(int i=0;i<n;i++)
+{
+x.add(sc.nextInt());
+}
+for(integer i:x)
+{
+System.out.println("enter n values"+i);
+}
+for(i=0;i<n;i++)
+{
+int key=sc.nextInt();
+System.out.println("enter the n value to replace"+n);
+System.out.println(x.contains(x.set(n,99)));
+System.out.println(x);
+else
+System.out.println("false");
+}
+}
+}
+__________________________________________________________________________________________________________________
+output:
+enter n value: 5
+enter n values :10 20 30 40 50
+enter the n value to replace:20
+10 99 30 40 50
+
