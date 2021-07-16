@@ -1,0 +1,35 @@
+import java.util.*;
+class ReadNEle
+{
+public static void main(String args[])
+{
+Scanner sc =new Scanner(System.in)
+int n;
+Arraylist<Integer>x=new ArrayList<Integer>();
+n=sc.nextInt();
+System.out.println("enter n value");
+for(int i=0;i<n;i++)
+{
+x.add(sc.nextInt());
+}
+for(integer i:x)
+{
+System.out.println("enter n values"+i);
+}
+System.out.println("enter value to search");
+int key=sc.nextInt();
+if(x.contains(key))
+{
+System.out.println(key.remove());
+System.out.println("print modify list"+x);
+else
+System.out.println("element not found");
+}
+}
+}
+__________________________________________________________________________________________________________________________________________________________________
+output:
+enter n value: 6
+enter n values: 10 20 30 40 50 60
+enter value to search:20
+print modify list :10 30 40 50 60 
