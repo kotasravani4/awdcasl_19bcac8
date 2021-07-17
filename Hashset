@@ -1,0 +1,25 @@
+import java.util.*;
+class Hashset
+{
+public static void main(String args[])
+{
+Hashset<Integer>h1=new Hashset<Integer>();
+h1.add(10);
+h1.add(20);
+h1.add(30);
+System.out.println(h1);
+if(h1.contains(10))
+{
+System.out.println("true");
+else
+System.out.println("false");
+}
+h1.remove(2);
+System.out.println(h1);
+}
+}
+__________________________________________________________________________________________
+output:
+[10,20,30]
+true
+10,20
