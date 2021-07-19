@@ -1,0 +1,26 @@
+import java.util.*;
+class Hashfrequency
+{
+public static void main(String args[])
+{
+int arr[]={2,3,4,2,5,6,7,2,5,8,6};
+HashMap<Integer,Integer> x=new HashMap<Integer,Integer>();
+for(int i=0;i<arr.length;i++)
+{
+if(x.containsKey(arr[i]))
+x.put(arr[i]),
+x.get(arr[i]+1);
+}
+for(i=0;i>=2;i++)
+{
+for(Map.Entry <Integer,Integer>i : x.entrySet())
+System.out.println(i.getKey()+ "----->"+i.getValue());
+}
+}
+}
+__________________________________________________________________________________________________________
+output:
+5--->2
+6--->3
+2--->3
+6--->2
