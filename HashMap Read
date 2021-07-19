@@ -1,0 +1,30 @@
+aqimport java.util.*;
+class map1
+{
+public static void main(String args[])
+{
+HashMap<Integer,String> x=new HashMap<Integer,String>();
+Scanner sc=new Scanner(System.in);
+int n;
+int key;
+String value;
+System.out.println("enter n value");
+n=sc.nextInt();
+for(int i=0;i<n;i++)
+{
+key=sc.nextInt();
+value=sc.next();
+x.put(key,value);
+}
+System.out.println(x);
+Treeset<Integer>t1=new TreesetInteger>(h1);
+systemout.println(t1);
+}
+}
+_________________________________________________________________________________________________________
+output:
+enter n value: 3
+5 john
+1 sam
+7 kim
+[1=sam 5=john 7=kim]
