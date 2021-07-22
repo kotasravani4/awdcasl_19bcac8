@@ -1,0 +1,34 @@
+import java.util.*;
+class HashmapDiv
+{
+public static void mainn(String args[])
+{
+Hashmap<Integer,Integer>x=new Hashmap<Integer,Integer>();
+Scanner sc=new scanner(system.in)
+System.out.println("enter n value");
+int n=sc.nextInt();
+for(int i=0;i<n;i++)
+{
+int key=sc.nextInt();
+int value=sc.nextInt();
+x.put(key,value);
+}
+System.out.println(x);
+for(i=0;i<n;i++)
+{
+digitsum+=(str[i]-0);
+if(n%5==0 || n%3==0)
+{
+value=0;
+value=value+1;
+System.out.println(value);
+}
+}
+}
+}
+_____________________________________________________________________________________________________________________________________________________________________
+output:
+enter n value 10
+2 5 3 6 9 12 10 15 20 33
+5=4
+3=6
