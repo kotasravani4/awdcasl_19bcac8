@@ -1,0 +1,26 @@
+import java.uti.*;
+class HashTable
+{
+public static void main(String args[])
+{
+Hashmap<Integer,Integer>x=new<Integer,Integer>();
+x.add(101,50000);
+x.add(102,45000);
+x.add(103,35000);
+x.add(104,40000);
+x.add(105,45000);
+System.out.println(x);
+System.out.println("enter the key value to search");
+if(x.contains(key))
+{
+System.out.println(value+500);
+else
+System.out.println("not found");
+}
+}
+}
+____________________________________________________________________________________________________________________________________________________________________________________
+output:
+[101=50000,102=45000,103=35000,104=40000,105=45000]
+enter key value:103
+[101=50000,102=45000,103=40000,104=40000,105=45000]
