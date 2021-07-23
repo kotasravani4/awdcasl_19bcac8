@@ -1,0 +1,32 @@
+import java.util.*; 
+public class BalancedBrackets 
+{ 
+public static void main(String[] args)
+ {
+ String expr = "([{}])";
+ if (areBracketsBalanced(expr))
+ {
+ System.out.println("Balanced ");
+ else
+ System.out.println("Not Balanced ");
+    }
+Stack<Character> st=new Stack<Character>();
+char[] ch=str.toCharArray();
+char t;
+for(char i:ch)
+{
+t=st.empty()?'*':st.peek();
+if(t=='(' && i==')')
+st.pop();
+else if(t=='{' && i=='}')
+st.pop();
+else if(t=='[' && i==']')
+st.pop();
+else
+st.push(i);
+}
+return (st.empty()?true:false);
+}
+__________________________________________________________________________________________________________________
+output:
+Balanced
