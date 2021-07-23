@@ -1,0 +1,27 @@
+import java.util.*;
+class stack
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(Systemin);
+int n=sc.nextInt();
+stack<integer>s=new stack<Integer>();
+System.ou.println("enter the n value");
+for(i=0;i<ar.lenth;i++)
+{
+ar[]=sc.next();
+}
+for(i=0;i<ar.length;i++)
+{
+s.push();
+}
+System.out.println(s.getMax);
+System.out.println(s.getMin);
+}
+}
+_____________________________________________________________________________________________________________
+output:
+enter the n value:5
+10 20 30 40 50
+50
+10
