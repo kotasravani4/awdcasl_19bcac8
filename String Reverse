@@ -1,0 +1,25 @@
+import java.util.*;
+class StringRev
+{
+public static void main(String args[])
+{
+ar[]=sc.nextInt();
+Stack<character>s=new stack<character>();
+char ch=s.charAtArray();
+for(i=0;i<ar.length;i++)
+{
+s.push();
+System.out.println(s);
+}
+for(i=0;i<ar.length;i++)
+{
+s.pop();
+System.out.println(s);
+}
+}
+}
+____________________________________________________________________________________________________________________________________________
+output:
+ADITYA
+AYTIDA
+
