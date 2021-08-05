@@ -1,0 +1,25 @@
+class NumArray {
+int[] prefix;
+public NumArray(int[] nums) {
+int n= nums.length;
+prefix = new int[n];
+prefix[0]=nums[0];
+for(int i=1;i<n;i++)
+prefix[i]= prefix[i-1]+nums[i];
+
+}
+
+public int sumRange(int left, int right) {
+int sum=0;
+if(left==0)
+sum=prefix[right];
+else
+sum = prefix[right]- prefix[left-1];
+return sum;
+}
+}
+_________________________________________________________________________________________
+output:
+[[-2,o,3,-5,2,-1]]
+[o,2]
+[1]
