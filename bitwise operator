@@ -1,0 +1,26 @@
+class Bitwise
+{
+static void bitwiseOperation(int a,int b,int c)
+{
+int d=0,f=0,g=0,e=0;
+d=a^a;
+System.out.println(d);
+e=c^b;
+System.out.println(e);
+f=a&b;
+System.out.println(f);
+g=c|(a^a);
+e=~e;
+System.out.println(e);
+}
+}
+___________________________________________________________________________
+output:
+a=4
+b=8
+c=2
+0
+10
+0
+2
+-11
