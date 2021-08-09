@@ -1,0 +1,32 @@
+ import java.util.Scanner; 
+class LinearSearch 
+{ 
+static int search(int arr[],int key) 
+{ 
+for (int i=0;i<arr.length ;i++ ) 
+{ 
+if (key==arr[i]) 
+{ 
+return i; 
+} 
+} 
+return -1; 
+} 
+} 
+class Test 
+{ 
+public static void main(String[] args) 
+{ 
+Scanner s=new Scanner(System.in); 
+System.out.println("enter key value"); 
+int key=s.nextInt(); 
+int arr[]={10,25,87,100,19,24}; 
+int result=LinearSearch.search(arr,key); 
+System.out.println(result); 
+} 
+} 
+__________________________________________________________________________________________________________________________
+output: 
+enter key value 
+100 
+3
