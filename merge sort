@@ -1,0 +1,67 @@
+program: 
+class MergeSort 
+{ 
+static void sort(int arr[],int lb,int ub) 
+{ 
+if (lb<ub) 
+{ 
+int mid=(lb+ub); 
+sort(arr,lb,mid);
+sort(arr,mid+1,ub); 
+merge(arr,lb,ub,mid);
+in sorted order 
+} 
+} 
+static void merge(int arr[],int lb,int ub,int mid) 
+{ 
+int i=lb;
+int j=mid+1;
+int k=lb;
+int temp[]=new int[arr.length]; 
+for (int t1=0;t1<temp.length;t1++ ) 
+{ 
+temp[t1]=arr[t1]; 
+} 
+while (i<=mid && j<=ub) 
+{ 
+if (temp[i]<=temp[j]) 
+{ 
+arr[k]=temp[i]; 
+i++; 
+} 
+else 
+{ 
+arr[k]=arr[j]; 
+j++; 
+} 
+k++; 
+} 
+while (j<=ub) 
+{  
+arr[k]=temp[j]; 
+k++; 
+j++; 
+} 
+while (i<=mid) 
+{ 
+arr[k]=temp[i]; 
+k++; 
+i++; 
+} 
+} 
+} 
+class Test 
+{ 
+public static void main(String[] args) 
+{ 
+int arr[]={19,32,31,23,12}; 
+MergeSort.sort(arr,0,arr.length-1); 
+for (int i:arr ) 
+{ 
+System.out.print(i+" "); 
+} 
+} 
+}
+____________________________________________________________________________________________________________
+output:
+12,19,23,31,32
