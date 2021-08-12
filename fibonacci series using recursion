@@ -1,0 +1,22 @@
+class Solution
+{ 
+int[] table = new int[31]; 
+public int fib(int N)
+{
+ if(N == 0)
+ return 0;
+ if(N == 1)
+ return 1;
+ if(table[N] != 0) 
+ { 
+ return table[N]; 
+ }
+ table[N] = fib(N - 1) + fib(N - 2); 
+ return table[N]; 
+ }
+ }
+ _____________________________________________________________________________________________________________________________
+ output:
+ n=3
+ 2
+
